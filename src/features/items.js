@@ -5,32 +5,32 @@ import { nanoid } from 'nanoid';
 const initialState =  {
     list: [
         {
-            name:"sushi",
+            name:"Sushi 🍣",
             price:2,
             id: nanoid()
         },
         {
-            name:"onigiri",
+            name:"Onigiri 🍙",
             price:2,
             id: nanoid()
         },
         {
-            name:"ramen",
+            name:"Ramen 🍜",
             price:10,
             id: nanoid()
         },
         {
-            name:"dango",
+            name:"Dango 🍡",
             price:10,
             id: nanoid()
         },
         {
-            name:"beer",
+            name:"Beer 🍺",
             price:5,
             id: nanoid()
         },
         {
-            name:"soda",
+            name:"Sake 🍶",
             price:3,
             id: nanoid()
         },

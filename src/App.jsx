@@ -29,10 +29,10 @@ function App() {
   }
 
   return (
-    <main className="w-screen h-screen bg-gradient-to-r from-red-400 to-red-900 flex flex-col items-center justify-center">
-      <div className="border-white/80 bg-zinc-900 w-96 h-auto rounded-xl p-4 border-2 drop-shadow-2xl mb-5">
+    <main className="w-full h-screen md:h-screen xl:flex-row bg-gradient-to-r from-red-400 to-red-900 flex flex-col items-center justify-center">
+      <div className="border-white/80 bg-gradient-to-r from-zinc-800 to-zinc-900 w-[300px] sm:w-96 h-auto rounded-xl p-4 border-2 drop-shadow-2xl mb-5 xl:mr-5 ">
         <div className="text-center">
-          <h1 className="font-mono font-extrabold text-white uppercase text-xl">
+          <h1 className="font-mono font-extrabold text-white uppercase text-xl xl:mr-5">
             Izakaya Maneki ⛩️
           </h1>
         </div>
@@ -75,7 +75,7 @@ function App() {
         {showCard && <About />}
       </div>
       {showCart && (
-        <div className="border-white/80 bg-zinc-900 w-96 h-auto rounded-xl p-4 border-2 drop-shadow-2xl">
+        <div className="border-white/80 bg-gradient-to-r from-zinc-800 to-zinc-900 w-[300px] sm:w-96  h-auto rounded-xl p-4 border-2 drop-shadow-2xl">
           <YourCart count={cartLength}  />
         </div>
       )}
